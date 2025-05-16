@@ -1,0 +1,322 @@
+<!-- res/layout/activity_live_score.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeWork_4"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/uiColor">
+
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arow"
+            />
+        <TextView
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Grade Calculator"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dashboard"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Physics"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="5dp">
+                <EditText
+                    android:id="@+id/edPhy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:outlineProvider="background"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dashboard"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chemistry"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="5dp">
+                <EditText
+                    android:id="@+id/edChem"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:outlineProvider="background"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dashboard"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Math"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="5dp">
+                <EditText
+                    android:id="@+id/edMath"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:outlineProvider="background"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dashboard"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Biology"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="5dp">
+                <EditText
+                    android:id="@+id/edBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:outlineProvider="background"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dashboard"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Computer Science"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="2dp"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="5dp">
+                <EditText
+                    android:id="@+id/edCse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:outlineProvider="background"
+                    android:hint="Enter marks"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#0080F6"
+            android:text="Calculate"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="3"/>
+
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_delete_forever_24"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:contentDescription="@string/delete_button_description"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/resBox"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:text="Your result will be shown here.."/>
+</LinearLayout>

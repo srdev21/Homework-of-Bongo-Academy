@@ -1,0 +1,88 @@
+<!-- res/layout/activity_live_score.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeWork_3"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/uiColor">
+
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arow"
+            />
+        <TextView
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="DayOfWeek"/>
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Please enter a number"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittextborder"
+        android:textStyle="bold"
+        android:id="@+id/edYear"
+        android:inputType="number"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#0089FF"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"/>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_delete_forever_24"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:contentDescription="@string/delete_button_description"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/resBox"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="Your Day Name will be shown here.."/>
+
+</LinearLayout>
