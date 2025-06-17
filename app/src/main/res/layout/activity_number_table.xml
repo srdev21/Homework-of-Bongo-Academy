@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".HomeWork_3"
+    tools:context=".NumberTable"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,44 +27,47 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:text="DayOfWeek"/>
+            android:text="Number Table"/>
+
+
 
 
     </LinearLayout>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Please enter a number"
+        android:hint="Please enter a value"
         android:layout_margin="10dp"
         android:background="@drawable/edittextborder"
         android:textStyle="bold"
-        android:id="@+id/edYear"
+        android:id="@+id/edValue"
         android:inputType="number"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:weightSum="5">
 
         <Button
             android:id="@+id/btnCalculate"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:layout_margin="20dp"
-            android:backgroundTint="#0089FF"
-            android:text="Submit"
+            android:backgroundTint="#2196F3"
+            android:text="Calculate"
             android:textStyle="bold"
-            android:textSize="20dp"
+            android:textSize="16dp"
+            android:textAlignment="center"
             android:layout_gravity="center"
             android:layout_weight="3"/>
 
         <ImageView
             android:id="@+id/btnDelete"
             android:layout_width="30dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:src="@drawable/baseline_delete_forever_24"
             android:layout_gravity="center_vertical"
             android:layout_weight="2"
@@ -79,10 +82,10 @@
         android:layout_height="match_parent"
         android:id="@+id/resBox"
         android:textStyle="bold"
+        android:layout_marginLeft="30dp"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="16sp"
         android:layout_marginTop="15dp"
-        android:textAlignment="center"
-        android:text="Your Day Name will be shown here.."/>
-
+        android:textAlignment="viewStart"
+        android:text="Your result will be shown here.."/>
 </LinearLayout>

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ImageView imageMenu;
 
-    CardView hw1, hw2, hw3, hw4, hw5, hw6;
+    CardView hw1, hw2, hw3, hw4, hw5, hw6, hw7, hw8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         hw4 = findViewById(R.id.hw4);
         hw5 = findViewById(R.id.hw5);
         hw6 = findViewById(R.id.hw6);
+        hw7 = findViewById(R.id.hw7);
+        hw8 = findViewById(R.id.hw8);
 
 
         hw1.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +95,29 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        hw6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, NumberTable.class);
+                startActivity(intent);
+            }
+        });
+
+        hw7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, ArrayList_Hashmap_Practice.class);
+                startActivity(intent);
+            }
+        });
+
+        hw8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, NewsApp.class);
+                startActivity(intent);
+            }
+        });
 
 
 

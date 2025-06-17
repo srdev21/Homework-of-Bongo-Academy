@@ -38,7 +38,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         android:layout_margin="10dp"
@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Physics"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -85,7 +85,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         android:layout_margin="10dp"
@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Chemistry"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -132,7 +132,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         android:layout_margin="10dp"
@@ -148,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Math"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -179,7 +179,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         android:layout_margin="10dp"
@@ -195,7 +195,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Biology"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -226,7 +226,7 @@
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         android:layout_margin="10dp"
@@ -242,7 +242,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Computer Science"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -281,12 +281,12 @@
         <Button
             android:id="@+id/btnCalculate"
             android:layout_width="0dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_margin="20dp"
             android:backgroundTint="#0080F6"
             android:text="Calculate"
             android:textStyle="bold"
-            android:textSize="22dp"
+            android:textSize="18dp"
             android:clickable="true"
             android:layout_gravity="center"
             android:layout_weight="3"/>
@@ -295,7 +295,7 @@
         <ImageView
             android:id="@+id/btnDelete"
             android:layout_width="30dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:src="@drawable/baseline_delete_forever_24"
             android:layout_gravity="center_vertical"
             android:layout_weight="2"
